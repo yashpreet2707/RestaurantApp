@@ -3181,7 +3181,7 @@ $RefreshReg$(_c1, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Error":"kvula","./components/RestaurantMenu":"8PuJ6","./components/Cart":"h8J3U","b9adce3e16aaa7b2":"93fvj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./utils/UserContext":"c5vgB","react-redux":"62sf7","./utils/appStore":"6A5Ux"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Error":"kvula","./components/RestaurantMenu":"8PuJ6","./components/Cart":"h8J3U","./utils/UserContext":"c5vgB","react-redux":"62sf7","./utils/appStore":"6A5Ux","b9adce3e16aaa7b2":"93fvj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -34347,7 +34347,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","react":"21dqq","react-router-dom":"9xmpe","../utils/useOnlineStatus":"181Ji","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"c5vgB","react-redux":"62sf7"}],"hB8jg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","react":"21dqq","react-router-dom":"9xmpe","../utils/useOnlineStatus":"181Ji","../utils/UserContext":"c5vgB","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hB8jg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "CDN_URL", ()=>CDN_URL);
@@ -35859,7 +35859,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../utils/constants":"hB8jg","../utils/useOnlineStatus":"181Ji","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./RestaurantCard":"bMboU","./ShimmerHome":"IRYcw","../utils/UserContext":"c5vgB"}],"bMboU":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./RestaurantCard":"bMboU","react":"21dqq","react-router-dom":"9xmpe","./ShimmerHome":"IRYcw","../utils/constants":"hB8jg","../utils/useOnlineStatus":"181Ji","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bMboU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ffb1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36228,7 +36228,7 @@ exports.default = About;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./User":"4iQHT","./UserClass":"Vp2Fx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"c5vgB"}],"4iQHT":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./User":"4iQHT","./UserClass":"Vp2Fx","../utils/UserContext":"c5vgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4iQHT":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9c32 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36447,7 +36447,7 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ShimmerHome":"IRYcw"}],"kvula":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./ShimmerHome":"IRYcw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kvula":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0ba4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36657,7 +36657,108 @@ $RefreshReg$(_c, "RestaurantMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../utils/useRestaurantMenu":"fMOkH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./RestaurantCategory":"K7XHe","./ShimmerMenu":"he49z","react":"21dqq"}],"fMOkH":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./ShimmerMenu":"he49z","react":"21dqq","react-router-dom":"9xmpe","../utils/useRestaurantMenu":"fMOkH","./RestaurantCategory":"K7XHe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"he49z":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0611 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0611.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const ShimmerMenu = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "w-6/12 m-auto",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex flex-col",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "h-48 p-4 mt-6 border-none rounded-lg bg-gray-200"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 6,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 8,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 10,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 11,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 13,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 14,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
+                }, void 0, false, {
+                    fileName: "src/components/ShimmerMenu.js",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/ShimmerMenu.js",
+            lineNumber: 5,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/ShimmerMenu.js",
+        lineNumber: 4,
+        columnNumber: 9
+    }, undefined);
+};
+_c = ShimmerMenu;
+exports.default = ShimmerMenu;
+var _c;
+$RefreshReg$(_c, "ShimmerMenu");
+
+  $parcel$ReactRefreshHelpers$0611.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fMOkH":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$253c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36772,7 +36873,7 @@ $RefreshReg$(_c, "RestaurantCategory");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ItemList":"kZjho"}],"kZjho":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./ItemList":"kZjho","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kZjho":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1342 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36904,7 +37005,7 @@ $RefreshReg$(_c, "ItemList");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/constants":"hB8jg","react-redux":"62sf7","../utils/cartSlice":"5RXlr"}],"5RXlr":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/constants":"hB8jg","react-redux":"62sf7","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5RXlr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addItem", ()=>addItem);
@@ -40906,108 +41007,7 @@ function createThunkMiddleware(extraArgument) {
 var thunk = createThunkMiddleware();
 var withExtraArgument = createThunkMiddleware;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"he49z":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0611 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0611.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const ShimmerMenu = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-6/12 m-auto",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex flex-col",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "h-48 p-4 mt-6 border-none rounded-lg bg-gray-200"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 6,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 8,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 10,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 11,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 14,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "my-4 h-12 bg-gray-200 border border-black-400 rounded-lg"
-                }, void 0, false, {
-                    fileName: "src/components/ShimmerMenu.js",
-                    lineNumber: 15,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/ShimmerMenu.js",
-            lineNumber: 5,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/ShimmerMenu.js",
-        lineNumber: 4,
-        columnNumber: 9
-    }, undefined);
-};
-_c = ShimmerMenu;
-exports.default = ShimmerMenu;
-var _c;
-$RefreshReg$(_c, "ShimmerMenu");
-
-  $parcel$ReactRefreshHelpers$0611.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h8J3U":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h8J3U":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ad24 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -41104,7 +41104,20 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7","./ItemList":"kZjho","../utils/cartSlice":"5RXlr"}],"93fvj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/cartSlice":"5RXlr","./ItemList":"kZjho","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6A5Ux":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _toolkit = require("@reduxjs/toolkit");
+var _cartSlice = require("./cartSlice");
+var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
+const appStore = (0, _toolkit.configureStore)({
+    reducer: {
+        cart: (0, _cartSliceDefault.default)
+    }
+});
+exports.default = appStore;
+
+},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"93fvj":[function(require,module,exports) {
 module.exports = require("b560c1a975c38ad5")(require("425da6f661df13c6").getBundleURL("lPpKD") + "Grocery.c52c2ad2.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
@@ -41207,19 +41220,6 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"6A5Ux":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _toolkit = require("@reduxjs/toolkit");
-var _cartSlice = require("./cartSlice");
-var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
-const appStore = (0, _toolkit.configureStore)({
-    reducer: {
-        cart: (0, _cartSliceDefault.default)
-    }
-});
-exports.default = appStore;
-
-},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequiree44d")
+},{}]},["gbXMy","1xC6H","bNKaB"], "bNKaB", "parcelRequiree44d")
 
 //# sourceMappingURL=index.0641b553.js.map
