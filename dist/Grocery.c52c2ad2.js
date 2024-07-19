@@ -649,6 +649,6 @@ $RefreshReg$(_c, "Grocery");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./ShimmerHome":"IRYcw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["97dvP","1xC6H"], null, "parcelRequiree44d")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ShimmerHome":"IRYcw"}]},["97dvP","1xC6H"], null, "parcelRequiree44d")
 
 //# sourceMappingURL=Grocery.c52c2ad2.js.map
