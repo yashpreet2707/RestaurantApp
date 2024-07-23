@@ -22,7 +22,7 @@ export const Header = () => {
     return (
         <div className="flex justify-between items-center border-b-2 border-black">
             <div className="w-44">
-                <Link to="/"><img src={LOGO_URL}/></Link>
+                <Link to="/"><img src={LOGO_URL} alt="log-img-res" /></Link>
             </div>
             <div className="">
                 <ul className="flex px-10 text-lg">
