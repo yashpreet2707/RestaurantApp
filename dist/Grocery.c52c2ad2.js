@@ -611,36 +611,31 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$3b38.prelude(module);
 
 try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _shimmerHome = require("./ShimmerHome");
-var _shimmerHomeDefault = parcelHelpers.interopDefault(_shimmerHome);
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _ShimmerHome = _interopRequireDefault(require("8524d924fdf50cb6"));
+var _jsxRuntime = require("ab375f7dfe439ac");
+function _interopRequireDefault(e) {
+    return e && e.__esModule ? e : {
+        default: e
+    };
+}
 const Grocery = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
                 className: "text-center mt-4 font-bold text-2xl",
                 children: "Our Grocery online store, and we have a lot of child components inside this web page."
-            }, void 0, false, {
-                fileName: "src/components/Grocery.js",
-                lineNumber: 6,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerHomeDefault.default), {}, void 0, false, {
-                fileName: "src/components/Grocery.js",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined)
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_ShimmerHome.default, {})
         ]
-    }, void 0, true, {
-        fileName: "src/components/Grocery.js",
-        lineNumber: 5,
-        columnNumber: 9
-    }, undefined);
+    });
 };
 _c = Grocery;
-exports.default = Grocery;
+var _default = exports.default = Grocery;
 var _c;
 $RefreshReg$(_c, "Grocery");
 
@@ -649,6 +644,6 @@ $RefreshReg$(_c, "Grocery");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ShimmerHome":"IRYcw"}]},["97dvP","1xC6H"], null, "parcelRequiree44d")
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","8524d924fdf50cb6":"IRYcw","ab375f7dfe439ac":"6AEwr"}]},["97dvP","1xC6H"], null, "parcelRequiree44d")
 
 //# sourceMappingURL=Grocery.c52c2ad2.js.map

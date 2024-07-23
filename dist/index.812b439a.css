@@ -256,6 +256,10 @@ img, video {
   margin: 0;
 }
 
+.m-2 {
+  margin: .5rem;
+}
+
 .m-20 {
   margin: 5rem;
 }
@@ -350,6 +354,10 @@ img, video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-6 {
@@ -651,6 +659,11 @@ img, video {
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-600:hover {
