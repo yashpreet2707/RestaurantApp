@@ -54,7 +54,7 @@ const Body = () => {
         <div className="">
             <div className="flex justify-start p-9 ml-10">
                 <div className="mx-9">
-                    <input className="p-2 border border-black w-56 rounded-lg" type="text" placeholder="Enter Restaurant name" value={searchText} onChange={ (e) => {
+                    <input className="p-2 border border-black w-56 rounded-lg" type="text" data-testid="searchInput" placeholder="Enter Restaurant name" value={searchText} onChange={ (e) => {
                         setsearchText(e.target.value)
                     }}/>
                     <button className="mx-4 py-2 px-4 border border-black bg-green-300 rounded-lg" onClick={ () => {
