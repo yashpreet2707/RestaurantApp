@@ -33500,7 +33500,8 @@ const Header = ()=>{
                 children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Link, {
                     to: "/",
                     children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
-                        src: _constants.LOGO_URL
+                        src: _constants.LOGO_URL,
+                        alt: "log-img-res"
                     })
                 })
             }),
