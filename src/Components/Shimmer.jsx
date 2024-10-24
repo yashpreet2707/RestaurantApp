@@ -1,30 +1,26 @@
 
 
 const Shimmer = () => {
-  return (
-    <div className="">
-        {/* <div className="flex justify-start p-9 ml-8">
-            <div className="mx-9 flex">
-                <div className="p-2 border bg-gray-200 border-none w-56 rounded-lg"></div>
-                <div className="mx-4 py-2 px-4 border border-none bg-gray-200 rounded-lg"></div>
-            </div>
-            <div className="mx-4 py-2 px-4 border border-none bg-gray-200 rounded-lg"></div>
-            <div className="mx-4 py-2 px-4 border border-none bg-gray-200 rounded-lg"></div>
-            <div className="mx-4 py-2 px-4 border border-none bg-gray-200 rounded-lg"></div>
-            
-        </div> */}
-        <div className="flex flex-wrap my-4">
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
 
-            {/*<div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div>
-            <div className="p-4 ml-28  border-none m-4 w-[200px] h-[350px] bg-gray-200 rounded-lg"></div> */}
+    const divArr = Array.from({length: 12})
+  return (
+    <div className="w-10/12 mx-auto">
+
+        <div className="mt-10 pt-2 flex">
+            <div className="shimmer w-[200px] h-[40px] ml-2 rounded-full"></div>
+            <div className="shimmer w-[140px] h-[40px] ml-2 rounded-full"></div>
+            <div className="shimmer w-[140px] h-[40px] ml-4 rounded-full"></div>
+            <div className="shimmer w-[140px] h-[40px] ml-2 rounded-full"></div>
+            <div className="shimmer w-[140px] h-[40px] ml-2 rounded-full"></div>
+        </div>
+
+        <div className="mt-5 mb-10 flex flex-wrap">
+            {divArr.map((_, index) => (
+                <div
+                key={index}
+                className="shimmer m-1 border-none w-[280px] h-[200px] bg-gray-200 rounded-lg">
+                </div>
+            ))}
         </div>
     </div>
   )

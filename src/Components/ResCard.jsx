@@ -1,12 +1,9 @@
 import { resImgURL } from "../utils/constants";
-import "./customStyles/Body.css" ;
+import "../utils/Custom.css" ;
 
 const ResCard = (props) => {
 
     const {res} = props ;
-
-
-    console.log(res)
     const {name,cloudinaryImageId,avgRating,cuisines,sla,locality} = res.info ;
 
   return (
@@ -25,8 +22,8 @@ const ResCard = (props) => {
                 </svg>
                 <span className="font-light">{avgRating} • {sla.slaString}</span>
             </h3>
-            <h4 className="text-gray-400 text-sm">{cuisines.join(", ")}</h4>
-            <h4 className="text-gray-400 text-sm">{locality}</h4>
+            <h4 className="text-gray-600 text-sm">{cuisines.join(", ")}</h4>
+            <h4 className="text-gray-600 text-sm">{locality}</h4>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { appStoreURL, pathD1, pathD2, playStoreURL } from "../utils/constants"
+import "../utils/Custom.css" ;
 
 const Footer = () => {
 
@@ -20,7 +21,7 @@ const Footer = () => {
         </div>
         {/* rest right portion */}
         <div className="mt-10 flex justify-start gap-x-10 w-3/4 text-left">
-            <div>
+            <div className="footer-div">
                 <h5 className="text-lg font-semibold"><Link to='contact'>Company</Link></h5>
                 <ul className="mt-3 text-sm flex flex-col gap-y-2">
                     <li>About Us</li>
@@ -34,7 +35,7 @@ const Footer = () => {
                     <li>Minis</li>
                 </ul>
             </div>
-            <div>
+            <div className="footer-div">
                 <h5 className="text-lg font-semibold"><Link to='contact'>Contact Us</Link></h5>
                 <ul className="mt-3 text-sm flex flex-col gap-y-2">
                     <li>Help & Support</li>
@@ -48,7 +49,7 @@ const Footer = () => {
                     <li>Privacy Policy</li>
                 </ul>
             </div>
-            <div>
+            <div className="footer-div">
                 <h5 className="text-lg font-semibold"><Link to='contact'>Life at Swiggy</Link></h5>
                 <ul className="mt-3 text-sm flex flex-col gap-y-2">
                     <li>Explore With Swiggy</li>

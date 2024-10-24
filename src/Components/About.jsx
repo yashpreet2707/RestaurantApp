@@ -1,8 +1,9 @@
+import Shimmer from "./Shimmer"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <Shimmer />
   )
 }
 

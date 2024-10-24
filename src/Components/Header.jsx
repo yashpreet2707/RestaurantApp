@@ -12,10 +12,12 @@ const Header = () => {
     <div className='flex justify-between items-center border-b-2 h-20'>
       {/* logo  */}
       <div className="mx-auto w-5/12">
-          <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="160" height="49" fill="none">
-            <path fill="#FE5005" d={pathD1}></path>
-            <path fill="#fff" d={pathD2} ></path>
-          </svg>
+          <Link to="">
+            <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="160" height="49" fill="none">
+              <path fill="#FE5005" d={pathD1}></path>
+              <path fill="#fff" d={pathD2} ></path>
+            </svg>
+          </Link>
       </div>
       {/* nav items  */}
       <div className="w-7/12">
