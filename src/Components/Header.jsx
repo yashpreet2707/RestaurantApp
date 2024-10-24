@@ -20,7 +20,7 @@ const Header = () => {
       {/* nav items  */}
       <div className="w-7/12">
         <ul className="flex justify-evenly text-lg">
-          <li className="hover:text-[#FF5200]">Online Status : {onlineStatus ? "🟢" : "🔴"} </li>
+          <li className="hover:text-[#FF5200] cursor-pointer">Online Status : {onlineStatus ? "🟢" : "🔴"} </li>
           <li className="hover:text-[#FF5200]"><Link to='/'>Home</Link></li>
           <li className="hover:text-[#FF5200]"><Link to='/about'>About</Link></li>
           <li className="hover:text-[#FF5200]"><Link to='/contact'>Contact us</Link></li>
