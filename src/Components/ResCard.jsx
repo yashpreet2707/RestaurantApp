@@ -1,15 +1,18 @@
+import { Link } from "react-router-dom";
 import { resImgURL } from "../utils/constants";
 import "../utils/Custom.css" ;
 
 const ResCard = (props) => {
 
     const {res} = props ;
-    const {name,cloudinaryImageId,avgRating,cuisines,sla,locality} = res.info ;
+    const {id,name,cloudinaryImageId,avgRating,cuisines,sla,locality} = res.info ;
 
   return (
     <div className="w-1/4 p-2 bg-white text-sm rounded-lg">
         <div className="image-container">
+            <Link to={"/restaurant/"+ id}>
             <img className="shadow-lg shadow-black" src={resImgURL+ cloudinaryImageId} alt="" />
+            </Link>
         </div>
         <div className="text-left py-2 pl-2 flex flex-col gap-y-0">
             <h2 className="font-semibold text-lg">{name}</h2>

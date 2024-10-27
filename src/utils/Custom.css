@@ -70,3 +70,8 @@
 .footer-div > ul > li {
   cursor: pointer ;
 }
+
+
+.box-yash {
+  background-image: linear-gradient(to bottom, rgba(129, 125, 125, 0), rgba(61, 61, 61, 0.2));
+}

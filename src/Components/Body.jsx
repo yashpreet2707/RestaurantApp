@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 import ResCard from "./ResCard";
 import "../utils/Custom.css"
 import { useOnlineStatus } from "../utils/useOnlineStatus"
+import { Link } from "react-router-dom";
 
 const Body = () => {
   
@@ -73,9 +74,9 @@ const Body = () => {
         </div>
 
         <div className="flex flex-wrap mt-2">
-          {filteredRes.map((element, index) => {
+          {filteredRes.map((element) => {
               return (
-                <ResCard key={index} res={element} />
+                <ResCard key={element.info.id} res={element} />
               )
             } )}
         </div>

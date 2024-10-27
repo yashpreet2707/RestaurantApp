@@ -5,6 +5,9 @@ export const restaurantURL = "https://www.swiggy.com/dapi/restaurants/list/v5?la
 
 export const resImgURL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" ;
 
+// menu
+export const MenuURL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.31290&lng=78.03800&restaurantId=" ;
+
 
 // Footer 
 
