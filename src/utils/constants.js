@@ -3,6 +3,9 @@
 
 export const restaurantURL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.31290&lng=78.03800&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING" ;
 
+// gujarat
+// export const restaurantURL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=23.5783699&lng=72.3651502&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING" ;
+
 export const resImgURL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" ;
 
 // menu
