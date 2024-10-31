@@ -133,12 +133,15 @@ const RestaurantMenu = () => {
         <h2 className="text-center">Deals for you</h2>
       </div>
 
-      <div className="bg-green-100 mt-5 p-5">
+      <div className="mt-5 p-5">
+
         <h2 className="text-xl">Menu</h2>
 
         {/* accordian  */}
-        <div>
-          {/* {menuInfo.map( (category) => <MenuCategory props={category} />)} */}
+        <div className="p-5">
+
+          {categories.map( (category) => <MenuCategory props={category} />)}
+          
         </div>
 
       </div>
