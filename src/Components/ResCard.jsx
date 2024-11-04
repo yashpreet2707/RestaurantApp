@@ -15,8 +15,11 @@ const ResCard = (props) => {
             </Link>
         </div>
         <div className="text-left py-2 pl-2 flex flex-col gap-y-0">
-            <h2 className="font-semibold text-lg">{name}</h2>
-
+            <h2 className="font-semibold text-lg">
+                <Link to={"/restaurant/"+ id}>
+                {name}
+                </Link>
+            </h2>
             <h3 className="flex gap-x-1">
                 <svg width="20" height="20" strokeColor="rgba(2, 6, 12, 0.92)" fillColor="rgba(2, 6, 12, 0.92)">
                     <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>

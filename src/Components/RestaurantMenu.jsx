@@ -11,6 +11,8 @@ const RestaurantMenu = () => {
   const { resId } = useParams();
   const [resMenu, setresMenu] = useState({});
 
+  const [showIndex, setshowIndex] = useState(0)
+
   useEffect(() => {
     fetchData();
   },[]);
@@ -140,7 +142,7 @@ const RestaurantMenu = () => {
         {/* accordian  */}
         <div className="p-5">
 
-          {categories.map( (category) => <MenuCategory props={category} />)}
+          {categories.map( (category, index) => <MenuCategory key={category?.card?.card?.title} props={category} showItems={index === showIndex ? true : false} setshowIndex={()=> setshowIndex(index)} />)}
           
         </div>
 
